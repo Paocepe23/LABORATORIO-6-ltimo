@@ -39,13 +39,15 @@ Una máquina de anestesia mantiene al paciente en un estado estable de inconscie
 
 ### Equipo observado
 
-![Panel frontal de la WATO EX-20](imagenes/originales/02_panel_frontal_WATO_EX-20.jpg)
+![Panel frontal de la WATO EX-20]<img width="900" height="1600" alt="02_panel_frontal_WATO_EX-20" src="https://github.com/user-attachments/assets/9d1fce7d-162f-41e3-965e-68b42ff6b36c" />
+
 
 Panel frontal de la Mindray WATO EX-20. La pantalla estaba apagada y con película protectora. El equipo no tenía vaporizador instalado y solo se veía el soporte (manifold).
 
 ### Lista de verificación preoperatoria de la máquina
 
-![Lista de verificación preoperatoria](imagenes/originales/03_lista_verificacion_preoperatoria.jpg)
+![Lista de verificación preoperatoria]<img width="900" height="1600" alt="03_lista_verificacion_preoperatoria" src="https://github.com/user-attachments/assets/ad5168c0-5dfa-4477-9468-8e4703e25ce8" />
+
 
 La tarjeta pegada a la máquina indica los pasos diarios antes de anestesiar:
 - Con la máquina conectada a corriente alterna, poner el interruptor en ON, verificar que funciona con corriente alterna y completar la prueba de conformidad del sistema y fugas.
@@ -80,9 +82,10 @@ Se describen tres tipos principales: general, regional y local. La sedación se 
 
 Además, el vaporizador agrega al flujo de gas fresco el agente inhalado líquido (sevoflurano, isoflurano, halotano, enflurano o desflurano, solo uno a la vez).
 
-**Sistema de alta presión:** los gases que entran desde **cilindros** (O2, N2O y aire, instalados en los yugos de la parte trasera) pasan por el sistema de alta presión y luego por un regulador. Según el manual, los cilindros de O2 y aire están entre 6,9 y 20 MPa y el de N2O entre 4,2 y 6 MPa [6]. Los gases de la toma de pared (280–600 kPa) llegan por mangueras a presión intermedia. En la foto se ven los tres manómetros de toma de pared y **un solo manómetro de cilindro (O2)**. El espacio contiguo estaba vacío.
+**Sistema de alta presión:** los gases que entran desde cilindros (O2, N2O y aire, instalados en los yugos de la parte trasera) pasan por el sistema de alta presión y luego por un regulador. Según el manual, los cilindros de O2 y aire están entre 6,9 y 20 MPa y el de N2O entre 4,2 y 6 MPa [6]. Los gases de la toma de pared (280–600 kPa) llegan por mangueras a presión intermedia. En la foto se ven los tres manómetros de toma de pared y **un solo manómetro de cilindro (O2)**. El espacio contiguo estaba vacío.
 
-![Panel de gases y manómetros](imagenes/anotadas/06_panel_gases_anotado.jpg)
+![Panel de gases y manómetros]<img width="900" height="2030" alt="06_panel_gases_anotado" src="https://github.com/user-attachments/assets/f8091b03-b32a-427a-a261-0414ed6bf643" />
+
 
 ### c. ¿Qué es el sistema de respiración y cuál es su función? ¿Qué partes se esterilizan en autoclave?
 
@@ -112,11 +115,14 @@ La **pausa inspiratoria** (parámetro **TIP:TI**, "platô inspiratorio") se acti
 
 Los números de las fotos corresponden a los de cada lista.
 
-![Vista general anotada](imagenes/anotadas/01_vista_general_anotada.jpg)
+![Vista general anotada]<img width="900" height="2070" alt="01_vista_general_anotada" src="https://github.com/user-attachments/assets/234a3659-8761-48f0-b9a9-88cb7ce35e7b" />
 
-![Bloque del sistema respiratorio visto desde arriba](imagenes/anotadas/07_sistema_respiratorio_anotado.jpg)
 
-![Fuelle, bolsa y mascarilla](imagenes/anotadas/05_fuelle_y_mascarilla_anotado.jpg)
+![Bloque del sistema respiratorio visto desde arriba]<img width="900" height="1950" alt="07_sistema_respiratorio_anotado" src="https://github.com/user-attachments/assets/628777ec-da8b-4d21-91e1-fa7471897178" />
+
+
+![Fuelle, bolsa y mascarilla]<img width="900" height="1790" alt="05_fuelle_y_mascarilla_anotado" src="https://github.com/user-attachments/assets/c7050336-c00b-4a1b-bc25-6b65ea51347e" />
+
 
 | Parte | Ubicación | Función |
 |---|---|---|
@@ -181,7 +187,8 @@ El Apéndice D del manual lista las alarmas fisiológicas y técnicas [6]. Resum
 
 ### Análisis 2: subsistemas ordenados por número de fallas (mayor a menor)
 
-![Fallas por subsistema](analisis/fallas_por_subsistema.png)
+![Fallas por subsistema]<img width="2000" height="1100" alt="fallas_por_subsistema" src="https://github.com/user-attachments/assets/bd48a33e-10ef-4dff-95a8-9cfdbcb0d754" />
+
 
 | # | Subsistema | Mensajes de falla |
 |---|---|---|
@@ -195,7 +202,7 @@ El Apéndice D del manual lista las alarmas fisiológicas y técnicas [6]. Resum
 | 8 | Módulo de calentamiento | 3 |
 | 9 | Vaporizador | 0 |
 
-El conteo se hizo sobre los mensajes técnicos del Apéndice D.2/D.3 del manual (los "errores de hardware 01 a 11" se contaron uno a uno). Los datos y el script están en [`analisis/`](analisis). Los subsistemas con más fallas son los de **ventilador** y **energía**, y el vaporizador no tiene alarmas propias en la tabla.
+El conteo se hizo sobre los mensajes técnicos del Apéndice D.2/D.3 del manual (los "errores de hardware 01 a 11" se contaron uno a uno). Los datos y el script están en [`analisis/`](analisis). Los subsistemas con más fallas son los de ventilador y energía, y el vaporizador no tiene alarmas propias en la tabla.
 
 ## 6. Conclusión
 
