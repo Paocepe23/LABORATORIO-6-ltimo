@@ -9,6 +9,7 @@ Paola Cepeda
 
 Sebastián López
 
+Jose Porras 
 
 ## Contenido
 
@@ -210,7 +211,6 @@ El Apéndice D del manual lista las alarmas fisiológicas y técnicas [6]. Resum
 El conteo se hizo sobre los mensajes técnicos del Apéndice D.2/D.3 del manual (los "errores de hardware 01 a 11" se contaron uno a uno). Los datos y el script están en [`analisis/`](analisis). Los subsistemas con más fallas son los de ventilador y energía, y el vaporizador no tiene alarmas propias en la tabla.
 
 ## 6. Conclusión
-
 Las fallas que más se presentan al operar una máquina de anestesia se deben a errores de uso y de montaje más que a daños electrónicos: circuito o recipiente de CO2 mal ensamblado, fugas en conexiones, cilindros vacíos o cerrados, sensor de O2 sin calibrar, sensor de flujo húmedo y batería descargada por desconexión de la red. Esto coincide con la literatura, que señala que las fallas de las estaciones modernas suelen relacionarse con el usuario [3]. La lista de verificación preoperatoria y el mantenimiento programado (calibración del sensor de O2, cambio de empaques y baterías, drenado de vaporizadores) son la principal defensa. La práctica permitió reconocer cada subsistema (gases, vaporizador, ventilador y sistema de respiración con su absorbedor) y entender que el equipo no es tan complejo como parece [4].
 
 ## 7. Preguntas para la discusión
