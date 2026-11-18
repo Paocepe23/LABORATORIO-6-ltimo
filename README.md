@@ -3,6 +3,7 @@
 
 ## Integrantes
 Paola Cepeda
+---
 Sebastián López
 
 
